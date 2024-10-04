@@ -20,8 +20,8 @@ app.get('/api_testify/v1/health', (req, res) => {
     res.status(200).send('API testify runing healthy')
 })
 
-
-
 app.listen(port, ()=> {
     console.log(`El servidor se ejecuta en el puerto ${port}`);
 })
+
+export default app
